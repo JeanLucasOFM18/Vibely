@@ -1,8 +1,30 @@
-# React + Vite
+# Vibely
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+**Vibely** es una aplicación web que recomienda películas y series basadas en los gustos y preferencias personales de los usuarios utilizando inteligencia artificial. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La app utiliza la API de Gemini para obtener recomendaciones personalizadas, ofreciendo una experiencia única para descubrir contenido audiovisual que realmente te interese.
+
+La interfaz está desarrollada con React y Tailwind CSS para un diseño moderno y responsivo, mientras que el backend corre sobre Node.js y Express, gestionando las peticiones y la comunicación con la API de Gemini.
+
+---
+
+## Características principales
+
+- Recomendaciones personalizadas de películas y series usando IA.
+- Integración con Gemini API para recomendaciones basadas en gustos.
+- UI responsiva con React y Tailwind CSS.
+- Navegación interactiva con carrusel Swiper para explorar las recomendaciones.
+- Backend con Node.js y Express para manejar lógica y API requests.
+- Uso de la API de The Movie Database para la información de las recomendaciones.
+
+---
+
+## Tecnologías usadas
+
+- **Frontend:** React, Tailwind CSS, Swiper
+- **Backend:** Node.js, Express
+- **API:** Gemini API, The Movie Database
+
+---
